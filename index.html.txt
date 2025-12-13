@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HimPeakPest - Himachal Agro Store</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f4f6f7;
+        }
+        header {
+            background: #2e7d32;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        nav {
+            background: #1b5e20;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: #c8e6c9;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            margin: 5px 0;
+        }
+        .container {
+            padding: 15px;
+        }
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 15px 0 10px;
+            color: #1b5e20;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 12px;
+        }
+        .card {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .card h4 {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #1b5e20;
+        }
+        .price {
+            color: #d32f2f;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .btn {
+            display: block;
+            background: #2e7d32;
+            color: white;
+            padding: 6px;
+            margin-top: 8px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 6px;
+            font-size: 14px;
+        }
+        th {
+            background: #a5d6a7;
+        }
+        footer {
+            background: #1b5e20;
+            color: white;
+            padding: 12px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>HimPeakPest Agro Store</header>
+
+<nav>
+    <a href="#products">Products</a>
+    <a href="#schedule">Spray Schedule</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>100% Genuine Agro Chemicals</h2>
+    <p>Fungicide • Herbicide • Pesticide • Seeds • Fertilizer • Mulching Sheets</p>
+    <h3>📞 Order on WhatsApp: 9805688955</h3>
+</section>
+
+<div class="container">
+
+    <!-- PRODUCTS -->
+    <h3 id="products" class="section-title">Featured Products</h3>
+
+    <div class="products">
+
+        <div class="card">
+            <h4>Ridomil Gold 250g</h4>
+            <p>Syngenta | Fungicide</p>
+            <p class="price">₹280</p>
+            <a class="btn" href="https://wa.me/919805688955?text=Ridomil%20Gold%20250g%20order">Order Now</a>
+        </div>
+
+        <div class="card">
+            <h4>Nominee Gold 100ml</h4>
+            <p>Sumitomo | Herbicide</p>
+            <p class="price">₹320</p>
+            <a class="btn" href="https://wa.me/919805688955?text=Nominee%20Gold%20order">Order Now</a>
+        </div>
+
+        <div class="card">
+            <h4>Hybrid Seeds</h4>
+            <p>Tomato • Capsicum • Cauliflower</p>
+            <p class="price">₹50–₹500</p>
+            <a class="btn" href="https://wa.me/919805688955?text=Hybrid%20seed%20list">Get List</a>
+        </div>
+
+        <div class="card">
+            <h4>Mulching Sheet</h4>
+            <p>25 & 30 Micron</p>
+            <p class="price">₹1200–₹1800</p>
+            <a class="btn" href="https://wa.me/919805688955?text=Mulching%20sheet%20order">Order Now</a>
+        </div>
+
+        <div class="card">
+            <h4>Polybags</h4>
+            <p>Nursery Bags</p>
+            <p class="price">₹150–₹450</p>
+            <a class="btn" href="https://wa.me/919805688955?text=Polybags%20order">Order Now</a>
+        </div>
+
+    </div>
+
+    <!-- SPRAY SCHEDULE -->
+    <h3 id="schedule" class="section-title">Apple Spray Schedule (Sample)</h3>
+
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Tree Stage</th>
+            <th>Chemical</th>
+            <th>Quantity</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Green Tip</td>
+            <td>Copper Fungicide / Bordeaux</td>
+            <td>As per label</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Pink Bud</td>
+            <td>Systemic Fungicide + Insecticide</td>
+            <td>As per label</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Fruit Set</td>
+            <td>Contact + Systemic Fungicide</td>
+            <td>As per label</td>
+        </tr>
+
+    </table>
+
+    <p style="font-size:12px; color:#555;">
+        ⚠️ Note: Actual dose hamesha product label aur agriculture department ki guideline ke hisaab se use karein.
+    </p>
+
+    <!-- CONTACT -->
+    <h3 id="contact" class="section-title">Contact & Address</h3>
+
+    <p><b>📞 Phone / WhatsApp:</b> 9805688955</p>
+    <p><b>🏬 Store:</b> HimPeakPest Agro Store, Himachal Pradesh</p>
+    <p><b>⏱ Timing:</b> 9 AM – 7 PM</p>
+
+</div>
+
+<footer>
+    © 2025 HimPeakPest – Himachal Agro Chemicals. All Rights Reserved.
+</footer>
+
+</body>
+</html>
